@@ -15,12 +15,11 @@ def primzahlen(y):
 
 def primfaktorzerlegung(x):
     i = 0
-
     LIMIT = 2000
+
     prim = primzahlen(LIMIT)
-
-
     ausgabe = []
+
     while x != 1:
         while x % prim[i] != 0:
             if i == LIMIT-1:
@@ -37,6 +36,7 @@ def Output_function(number):
     Output = primfaktorzerlegung(number)
     Awnser = "Die Primfaktorzerlegung von " + str(number) + " = "
     i = 0
+    
     if Output == 0:
         return "Die Zahl ist zu groß"
     else:
