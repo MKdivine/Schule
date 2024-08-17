@@ -9,3 +9,4 @@ def mathfunction(x):
 
 print(mathfunction(1000))
 
+print("lol")
