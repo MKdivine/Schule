@@ -8,5 +8,3 @@ def mathfunction(x):
     return value
 
 print(mathfunction(1000))
-
-print("lol")
